@@ -1,8 +1,10 @@
 body {
   background-color: #ffeaf3;  
-  color: #333;
+  color: #eb5b9e;
   margin: 0;
   font-family: 'Alata', sans-serif;
+  text-align: center;
+
 }
 
 header {
@@ -38,6 +40,13 @@ header nav ul li a:hover {
     color: #ffccdd;
 }
 
+.titulo {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
 
 .sobre-texto {
     background: #ffffff;
@@ -62,14 +71,6 @@ header nav ul li a:hover {
     font-weight: bold;
     margin-top: 30px;
 }
-
-
-
-
-
-
-
-
 
 
 footer {
