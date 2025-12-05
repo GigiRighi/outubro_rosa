@@ -1,0 +1,116 @@
+body {
+  background-color: #ffeaf3;  
+  color: #333;
+  font-family: 'Alata', sans-serif;
+  margin: 0px;
+}
+
+header {
+    background-color: #eb5b9e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+}
+
+header h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffccdd;
+}
+
+.formulario {
+    background-color: #fcfcfc;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(235, 91, 158, 0.25);
+    max-width: 700px;
+    margin: 50px auto;
+    font-family: 'Alata', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lobster Two", sans-serif;
+    color: #eb5b9e;
+    margin-bottom: 25px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #eb5b9e;
+    font-size: 18px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 12px 15px;
+    border: 2px solid #eb5b9e;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    border-color: #ff99c8;
+    box-shadow: 0 0 8px rgba(235, 91, 158, 0.4);
+}
+
+.formulario button {
+    background-color: #eb5b9e;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "Lobster Two", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #eb68a1;
+    color: #333;
+}
+
+
+footer {
+    background-color: #eb5b9e;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
