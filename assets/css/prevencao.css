@@ -39,6 +39,31 @@ header nav ul li a:hover {
 }
 
 
+.sobre-texto {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 25px;
+    box-shadow: 0 12px 35px rgba(235, 91, 158, 0.22);
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.8;
+    margin: 35px auto;
+    max-width: 900px;
+    color: #444;
+}
+
+.sobre-texto p {
+    margin-bottom: 24px;
+}
+
+.sobre-texto .destaque {
+    font-size: 24px;
+    color: #eb5b9e;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
 
 
 
