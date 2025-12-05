@@ -1,36 +1,41 @@
 body {
   background-color: #ffeaf3;  
-  color:  #333;
+  color: #333;
+  margin: 0;
+  font-family: 'Alata', sans-serif;
 }
 
 header {
     background-color: #eb5b9e;
     color: #fff;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;  
-    align-items: center; 
-     font-family: "Lobster Two", sans-serif;    
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
 }
 
 header h1 {
     font-size: 55px;
     margin: 0;
-    text-align: center;
 }
 
 header nav ul {
     display: flex;
+    justify-content: center;
+    gap: 30px;
     list-style: none;
-    gap: 20px; 
-    margin-top: 15px; 
     padding: 0;
+    margin: 15px 0 0;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffccdd;
 }
 
 .container {
@@ -48,7 +53,7 @@ header nav ul li a {
 }
 
 .img-grande {
-    height: 400px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,19 +66,33 @@ header nav ul li a {
     object-fit: contain;
 }
 
-
 .container h2 {
     text-align: center;
     font-size: 50px;
-     font-family: "Lobster Two", sans-serif; 
+    font-family: "Lobster Two", sans-serif; 
+    color: #eb5b9e;
 }
 
-.container p {
+.card-sobre {
+    background: #ffffff;
+    padding: 35px 45px;
+    border-radius: 25px;
+    box-shadow: 0 12px 35px rgba(235, 91, 158, 0.25);
     text-align: center;
-    font-size: 17px;
-    font-family: "Alan Sans", sans-serif;
-    margin-bottom: 25px;
-    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.card-sobre p {
+    margin-bottom: 20px;
+}
+
+.destaque {
+    color: #eb5b9e;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 footer {
@@ -85,5 +104,3 @@ footer {
     font-size: 20px;
     margin-top: 50px;
 }
-
-
